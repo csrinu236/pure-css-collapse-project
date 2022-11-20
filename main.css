@@ -197,9 +197,6 @@ img {
 }
 
 .expand-btn {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
   margin-top: 2rem;
 }
 .expand-btn::after {
