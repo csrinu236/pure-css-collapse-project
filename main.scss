@@ -194,6 +194,7 @@ img {
 .expand-btn {
   appearance: none;
   margin-top: 2rem;
+
   &::after {
     content: "expand";
     border: 1px solid var(--clr-primary-9);
