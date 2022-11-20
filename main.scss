@@ -192,6 +192,7 @@ img {
 }
 
 .expand-btn {
+  appearance: none;
   margin-top: 2rem;
   &::after {
     content: "expand";

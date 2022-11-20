@@ -70,7 +70,8 @@ Global Styles
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -133,9 +134,9 @@ p {
     font-size: 1rem;
   }
   h1,
-h2,
-h3,
-h4 {
+  h2,
+  h3,
+  h4 {
     line-height: 1;
   }
 }
@@ -160,7 +161,7 @@ img {
   display: block;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /* delete them */
@@ -197,6 +198,9 @@ img {
 }
 
 .expand-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   margin-top: 2rem;
 }
 .expand-btn::after {
@@ -211,4 +215,4 @@ img {
 }
 .expand-btn:checked::after {
   content: "Collpase";
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
